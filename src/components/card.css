@@ -31,11 +31,13 @@ body {
   height: 60px;
   width: 60px;
   border-radius: 50%;
+  border: 1px solid #e4e0e0;
+  padding: .4rem;
 }
 .header-btn {
   padding: 0.1rem 0.3rem;
   border-radius: 5px;
-  font-size: .95rem;
+  font-size: 0.95rem;
   gap: 0.3rem;
   color: #a9a8a8;
   border: 1px solid #c2c2c2;
@@ -52,7 +54,8 @@ h3 {
 h2 {
   margin-bottom: 0.5rem;
 }
-.date-posted ,.location {
+.date-posted,
+.location {
   color: #a9a8a8;
   font-size: 0.9rem;
 }
@@ -73,24 +76,24 @@ h2 {
   border-top: 1px solid #e1dfdf;
   justify-content: space-between;
 }
-.header, .main{
+.header,
+.main {
   margin-inline: 1.5rem;
 }
-.details{
-    align-items: flex-start;
+.details {
+  align-items: flex-start;
 }
 h4 {
-    font-size: 1.5rem;
-    font-weight: 600;
-
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .location {
- font-weight: 300;
+  font-weight: 300;
 }
 .cta {
-    border-radius: 10px;
-    background-color: black;
-    color: white;
-    padding: .7rem .8rem;
-    font-size: .9rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 0.7rem 0.8rem;
+  font-size: 0.9rem;
 }
