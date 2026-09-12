@@ -116,18 +116,20 @@ const App = () => {
 
   return (
     <div className="parent flex">
-      {jobOpenings.map((jobOpening) => {
+      {jobOpenings.map((jobOpening, idx) => {
         return (
-          <Card
-            datePosted={jobOpening.datePosted}
-            post={jobOpening.post}
-            company={jobOpening.company}
-            logo={jobOpening.brandlogo}
-            tag1={jobOpening.tag1}
-            tag2={jobOpening.tag2}
-            pay={jobOpening.pay}
-            location={jobOpening.location}
-          />
+          <div key={idx}>
+            <Card
+              datePosted={jobOpening.datePosted}
+              post={jobOpening.post}
+              company={jobOpening.company}
+              logo={jobOpening.brandlogo}
+              tag1={jobOpening.tag1}
+              tag2={jobOpening.tag2}
+              pay={jobOpening.pay}
+              location={jobOpening.location}
+            />
+          </div>
         );
       })}
     </div>
