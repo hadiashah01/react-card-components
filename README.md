@@ -24,7 +24,12 @@ Click the preview to visit the live page 👇
 
 [![Job Cards Preview](./public/job-card-preview.png)](https://hadiashah01.github.io/react-card-components/)
 
+### Other Screens Previews
 
+Preview images for the other deployed pages:
+
+- Mobile: [Mobile Preview](public/card-mobile-preview.png)
+- Tablet: [Tablet Preview](public/card-tablet-preview.png)
 
 ## Features
 
