@@ -20,7 +20,11 @@ A responsive React job-card interface that displays job openings in a clean, str
 
 ## Preview
 
-![Job Cards Preview](./public/preview.png)
+Click the preview to visit the live page 👇
+
+[![Job Cards Preview](./public/job-card-preview.png)](https://hadiashah01.github.io/react-card-components/)
+
+
 
 ## Features
 
